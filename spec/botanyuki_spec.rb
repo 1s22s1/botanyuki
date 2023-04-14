@@ -9,4 +9,22 @@ RSpec.describe Botanyuki do
 
     it { is_expected.to eq 188 }
   end
+
+  describe '.A' do
+    let(:x_n) { [2, 4, 9] }
+    let(:y_n) { [3, 7, 11] }
+
+    subject { described_class.A(x_n, y_n) }
+
+    it { is_expected.to eq 1.08 }
+  end
+
+  describe '.B' do
+    let(:x_n) { [2, 4, 9] }
+    let(:y_n) { [3, 7, 11] }
+
+    subject { described_class.B(x_n, y_n) }
+
+    it { is_expected.to eq 1.6 }
+  end
 end

@@ -1,5 +1,7 @@
 module Botanyuki
   VERSION: String
 
-  def self.covariance: (untyped x_n, untyped y_n) -> Float
+  def self.covariance: (Array[::Float] x_n, Array[untyped] y_n) -> ::Float
+  def self.A: (Array[::Float] x_n, Array[untyped] y_n) -> ::Float
+  def self.B: (Array[::Float] x_n, Array[untyped] y_n) -> ::Float
 end
