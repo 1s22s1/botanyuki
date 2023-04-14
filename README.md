@@ -4,7 +4,7 @@
 
 $$y=Ax+B$$
 
-また　https://manabitimes.jp/math/942　を参考にしています。
+また https://manabitimes.jp/math/942 を参考にしています。
 
 ## インストール方法
 
