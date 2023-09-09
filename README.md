@@ -1,20 +1,20 @@
-# ぼたん雪
+# Botanyuki
 
-ぼたん雪は、線形単回帰を計算するメソッドを提供します。以下の式を想定しています。
+Botanyuki introduce linear simple regression. Assuming the below formula.
 
 $$y=Ax+B$$
 
-また https://manabitimes.jp/math/942 を参考にしています。
+Also, please see https://manabitimes.jp/math/942.
 
-## インストール方法
+## How to install
 
-シェル上で、次のコマンドを実行します。
+Run below command, on you shell.
 
 ```console
 gem install botanyuki
 ```
 
-## 使い方
+## How to use
 
 ```ruby
 require 'botanyuki'

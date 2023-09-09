@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ['1s22s1']
   spec.email = ['1s22s1@example.com']
 
-  spec.summary = 'ぼたん雪は、線形単回帰を計算するメソッドを提供します。'
-  spec.description = 'ぼたん雪は、線形単回帰を計算するメソッドを提供します。'
+  spec.summary = 'Botanyuki introduce linear simple regression.'
+  spec.description = 'Botanyuki introduce linear simple regression.'
   spec.homepage = 'https://github.com/1s22s1/botanyuki'
   spec.required_ruby_version = '>= 2.6.0'
 
