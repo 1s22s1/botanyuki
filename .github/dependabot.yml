@@ -11,6 +11,6 @@ updates:
   - package-ecosystem: "bundler"
     directory: "/"
     registries:
-      - doguu-github
+      - github-doguu
     schedule:
       interval: "weekly"
