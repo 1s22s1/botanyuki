@@ -1,7 +1,7 @@
 version: 2
 
 registries:
-  doguu-github:
+  github-doguu:
     type: git
     url: https://github.com
     username: x-access-token
