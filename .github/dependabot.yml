@@ -1,6 +1,14 @@
 version: 2
+
+registries:
+  github-octocat:
+    type: git
+    url: https://github.com
+    username: x-access-token
+    password: ${{secrets.doguu}
+
 updates:
   - package-ecosystem: "bundler"
-    directory: "/" # Location of package manifests
+    directory: "/"
     schedule:
       interval: "weekly"
