@@ -7,6 +7,7 @@ registries:
     username: x-access-token
     password: ${{secrets.DOGUU}
 
+
 updates:
   - package-ecosystem: "bundler"
     directory: "/"
