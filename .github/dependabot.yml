@@ -4,9 +4,8 @@ registries:
   github-doguu:
     type: git
     url: https://github.com
-    username: x-access-token
+    username: 1s22s1
     password: ${{secrets.DOGUU}
-
 
 updates:
   - package-ecosystem: "bundler"
