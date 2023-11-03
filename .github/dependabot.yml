@@ -1,7 +1,7 @@
 version: 2
 
 registries:
-  doguu:
+  doguu-github:
     type: git
     url: https://github.com
     username: x-access-token
@@ -10,5 +10,7 @@ registries:
 updates:
   - package-ecosystem: "bundler"
     directory: "/"
+    registries:
+      - doguu-github
     schedule:
       interval: "weekly"
