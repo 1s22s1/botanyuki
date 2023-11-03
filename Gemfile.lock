@@ -1,8 +1,13 @@
+GIT
+  remote: git@github.com:1s22s1/doguu.git
+  revision: 6fe605aa904038ee74824d1103d55b62b951d9d2
+  specs:
+    doguu (0.1.0)
+
 PATH
   remote: .
   specs:
     botanyuki (0.1.0)
-      doguu
 
 GEM
   remote: https://rubygems.org/
@@ -16,7 +21,6 @@ GEM
     concurrent-ruby (1.2.2)
     csv (3.2.7)
     diff-lcs (1.5.0)
-    doguu (0.1.0)
     ffi (1.15.5)
     fileutils (1.7.1)
     i18n (1.14.1)
@@ -79,6 +83,7 @@ PLATFORMS
 
 DEPENDENCIES
   botanyuki!
+  doguu!
   rake (~> 13.1)
   rspec (~> 3.0)
   steep
