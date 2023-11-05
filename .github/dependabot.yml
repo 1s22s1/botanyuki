@@ -1,17 +1,8 @@
 version: 2
 
-registries:
-  github-doguu:
-    type: git
-    url: https://github.com
-    username: x-access-token
-    password: ${{secrets.DOGUU}}
-
 updates:
   - package-ecosystem: "bundler"
     directory: "/"
     insecure-external-code-execution: "allow"
-    registries:
-      - github-doguu
     schedule:
       interval: "weekly"
