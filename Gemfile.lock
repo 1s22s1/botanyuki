@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:1s22s1/doguu.git
-  revision: 6fe605aa904038ee74824d1103d55b62b951d9d2
+  revision: 35f5ae710b45b0a77643ad848907e18300c20d5d
   specs:
-    doguu (0.1.0)
+    doguu (0.1.1)
 
 PATH
   remote: .
