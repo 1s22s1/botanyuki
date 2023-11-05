@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:1s22s1/doguu.git
-  revision: 7e6544e1596c259c47d07040ba62701ee6af8145
+  remote: git@github.com:yude-tamago/doguu.git
+  revision: a7aea3592f7a367af54d8026bf3ac62cceb2e3e9
   specs:
     doguu (0.1.2)
 

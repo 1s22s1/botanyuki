@@ -8,4 +8,4 @@ gem 'rake', '~> 13.1'
 gem 'rspec', '~> 3.0'
 gem 'steep'
 
-gem 'doguu', git: 'git@github.com:1s22s1/doguu.git'
+gem 'doguu', git: 'git@github.com:yude-tamago/doguu.git'
