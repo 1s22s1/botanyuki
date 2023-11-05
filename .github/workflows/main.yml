@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Set up Ruby
       env:
-        BUNDLE_GITHUB__COM: "${secrets.DOGUU}:x-oauth-basic"
+        BUNDLE_GITHUB__COM: x-access-token:${{ secrets.DOGUU }}
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.2
