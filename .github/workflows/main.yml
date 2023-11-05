@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      BUNDLE_GITHUB__COM: ${{ secrets.DOGUU }}:x-oauth-basic
+      BUNDLE_GITHUB__COM: x-access-token:${{ secrets.DOGUu }}
 
     steps:
     - uses: actions/checkout@v3
