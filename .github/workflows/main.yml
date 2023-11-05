@@ -10,13 +10,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    env:
-      BUNDLE_GITHUB__COM: 1s22s1:${{ secrets.DOGUU }}
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Ruby
+      env:
+        BUNDLE_GITHUB__COM: 1s22s1:${{ secrets.DOGUU }}
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.2
